@@ -1,17 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/taba.unity
-=======
-- path: Assets/Scenes/futo.scene.unity
->>>>>>> origin/FUTO
-=======
-- path: Assets/Scenes/hokama.scene/2Scene.unity
->>>>>>> origin/kaito
-=======
-- path: Assets/Scenes/ryu_Scene.unity
->>>>>>> ryu_sub1
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
