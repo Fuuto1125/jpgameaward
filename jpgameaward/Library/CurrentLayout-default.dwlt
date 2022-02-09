@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 61
+=======
+  controlID: 42
+>>>>>>> origin/FUTO
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,8 +97,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 294
     height: 655
+=======
+    width: 357
+    height: 454
+>>>>>>> origin/FUTO
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -220,7 +229,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 62
+=======
+  controlID: 43
+>>>>>>> origin/FUTO
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +258,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 63
+=======
+  controlID: 101
+>>>>>>> origin/FUTO
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -441,6 +458,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: fe380000
     m_LastClickedID: 14590
     m_ExpandedIDs: 00000000b23800001a4a000000ca9a3b
@@ -448,13 +466,26 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name: Prefabs
       m_OriginalName: Prefabs
+=======
+    m_SelectedIDs: 92330000
+    m_LastClickedID: 13202
+    m_ExpandedIDs: 000000009233000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Material
+      m_OriginalName: Material
+>>>>>>> origin/FUTO
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 14540
+=======
+      m_UserData: 13212
+>>>>>>> origin/FUTO
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -471,7 +502,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b2380000b4380000b6380000
+=======
+    m_ExpandedIDs: 0000000092330000
+>>>>>>> origin/FUTO
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,7 +550,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 11}
+=======
+      m_ClientGUIView: {fileID: 3}
+>>>>>>> origin/FUTO
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -594,9 +633,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 14bdffffd4f7ffff40f8ffffe4faffff52fbffff
+=======
+      m_SelectedIDs: 0c350000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 72fbffff
+>>>>>>> origin/FUTO
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: bush_03 (1)
@@ -656,9 +701,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 16.690655, y: 15.00148, z: -6.980488}
     speed: 2
     m_Value: {x: 140.08224, y: -158.35916, z: 337.8345}
+=======
+    m_Target: {x: -0.1123476, y: -0.053693295, z: 0.15300131}
+    speed: 2
+    m_Value: {x: -0.1123476, y: -0.053693295, z: 0.15300131}
+>>>>>>> origin/FUTO
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -704,9 +755,15 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.18231216, y: -0.0011585063, z: 0.00024788914, w: 0.9833982}
     speed: 2
     m_Value: {x: 0.18875554, y: 0.1527579, z: -0.030009294, w: 0.96960604}
+=======
+    m_Target: {x: -0.09052293, y: 0.8949959, z: -0.21221158, w: -0.38177776}
+    speed: 2
+    m_Value: {x: -0.09052293, y: 0.8949959, z: -0.21221158, w: -0.38177776}
+>>>>>>> origin/FUTO
   m_Size:
     m_Target: 30.86506
     speed: 2
@@ -781,10 +838,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -570.5
     m_HBaseRangeMax: 570.5
     m_VBaseRangeMin: -306.5
     m_VBaseRangeMax: 306.5
+=======
+    m_HBaseRangeMin: -448.5
+    m_HBaseRangeMax: 448.5
+    m_VBaseRangeMin: -216.5
+    m_VBaseRangeMax: 216.5
+>>>>>>> origin/FUTO
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -801,17 +865,26 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 21
       width: 1141
       height: 613
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 570.5, y: 306.5}
+=======
+      y: 0
+      width: 897
+      height: 433
+    m_Scale: {x: 1.2494643, y: 1.2494643}
+    m_Translation: {x: 448.49997, y: 216.5}
+>>>>>>> origin/FUTO
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -570.5
       y: -306.5
       width: 1141
@@ -819,6 +892,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1141, y: 634}
+=======
+      x: -358.95383
+      y: -173.27426
+      width: 717.90765
+      height: 346.54852
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 897, y: 433}
+>>>>>>> origin/FUTO
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
