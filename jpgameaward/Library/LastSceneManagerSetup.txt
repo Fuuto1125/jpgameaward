@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/taba.unity
 =======
 - path: Assets/Scenes/futo.scene.unity
 >>>>>>> origin/FUTO
+=======
+- path: Assets/Scenes/hokama.scene/2Scene.unity
+>>>>>>> origin/kaito
   isLoaded: 1
   isActive: 1
   isSubScene: 0
