@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange3.cs" />
     <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
     <Compile Include="Assets\Script\Enemy\FireBall.cs" />
+    <Compile Include="Assets\Script\Enemy\SelfDestroy.cs" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
