@@ -4,16 +4,27 @@ using UnityEngine;
 
 public class FireBall : MonoBehaviour
 {
-    private Vector3 firepos;
+    [SerializeField] private ParticleSystem particle = null;
 
-    void Start()
+    private void OnCollisionEnter(Collision collision)
     {
-        firepos = transform.position;
-    }
+        // katana タグの付いたゲームオブジェクトと衝突したら
+        if (collision.gameObject.tag == "KATANA")
+        {
+            // パーティクルシステムのインスタンスを生成する。
+            ParticleSystem newParticle = Instantiate(particle);
 
+            // パーティクルの発生場所をこのスクリプトをアタッチしているGameObjectの場所にする。
+            newParticle.transform.position = this.transform.position;
 
-    void Update()
-    {
-        transform.position = new Vector3(firepos.x, Mathf.Sin(Time.time) * 0.8f + firepos.y, firepos.z);
+            // パーティクルを発生させる。
+            newParticle.Play();
+
+            //このGameObjectを削除
+            Destroy(this.gameObject);
+
+            // インスタンス化したパーティクルシステムのGameObjectを削除する。
+            Destroy(newParticle.gameObject, 1.0f);
+        }
     }
 }
