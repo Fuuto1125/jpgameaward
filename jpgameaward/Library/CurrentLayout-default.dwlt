@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 123
+=======
+  controlID: 122
+>>>>>>> daisuke_2
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,11 +96,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 240
     height: 460
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+    width: 357
+    height: 454
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+>>>>>>> daisuke_2
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -219,7 +231,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 54
+=======
+  controlID: 56
+>>>>>>> daisuke_2
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,6 +354,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -345,13 +362,28 @@ MonoBehaviour:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\2-4Eteam_GameTaishou\jpgameaward
+=======
+    - Assets/Scenes/Script
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes/Script
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: "C:\\Users\\Dai06\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\jpgameaward\\jpgameaward"
+>>>>>>> daisuke_2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 583f0000
     m_LastClickedID: 16216
     m_ExpandedIDs: 00000000fe3e0000003f000000ca9a3b
+=======
+    m_SelectedIDs: e03d0000
+    m_LastClickedID: 15840
+    m_ExpandedIDs: 00000000d43d0000de3d000000ca9a3b
+>>>>>>> daisuke_2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,7 +411,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000fe3e0000003f0000
+=======
+    m_ExpandedIDs: 00000000d43d0000
+>>>>>>> daisuke_2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +443,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c6230000
+=======
+    m_ExpandedInstanceIDs: c62300008c3c000000000000
+>>>>>>> daisuke_2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -473,7 +513,11 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
+<<<<<<< HEAD
 --- !u!114 &15
+=======
+--- !u!114 &17
+>>>>>>> daisuke_2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -502,9 +546,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: d6a8ffff0cb2ffff26b2ffff66b2ffff8eb2ffffb0b2ffffd4baffff14bbffff34bbffff5cbbffff98c4ffffcac4ffff02c5ffff42c5ffff80ceffff9cceffff4ecfffff
+=======
+      m_SelectedIDs: 683f0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 94edffff62eeffff
+>>>>>>> daisuke_2
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
