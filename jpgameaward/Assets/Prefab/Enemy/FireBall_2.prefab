@@ -4785,6 +4785,7 @@ GameObject:
   - component: {fileID: 8499557167719888247}
   - component: {fileID: 8499557167719888244}
   - component: {fileID: 6345543940891316812}
+  - component: {fileID: 3705793885865928745}
   m_Layer: 0
   m_Name: FireBall_2
   m_TagString: Untagged
@@ -4865,7 +4866,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.305871
+  m_Radius: 4
   m_Center: {x: 0, y: 0.80587184, z: 0}
 --- !u!195 &6345543940891316812
 NavMeshAgent:
@@ -4889,3 +4890,22 @@ NavMeshAgent:
   m_BaseOffset: 0.49999997
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &3705793885865928745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8499557167719888245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca3da34846b72d647a47f99e9e23dade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  trackingRange: 15
+  quitRange: 20
+  tracking: 0

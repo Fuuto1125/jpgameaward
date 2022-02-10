@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange2.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange3.cs" />
-    <Compile Include="Assets\Script\Enemy\CollisionDetector.cs" />
     <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
     <Compile Include="Assets\Script\Enemy\FireBall.cs" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />

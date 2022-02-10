@@ -4866,7 +4866,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.305871
+  m_Radius: 4
   m_Center: {x: 0, y: 0.80587184, z: 0}
 --- !u!195 &4857549819702355329
 NavMeshAgent:
@@ -4906,6 +4906,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  trackingRange: 3
-  quitRange: 5
+  trackingRange: 15
+  quitRange: 20
   tracking: 0
