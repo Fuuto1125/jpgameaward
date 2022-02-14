@@ -47,11 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-<<<<<<< HEAD
     <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
-=======
-    <UnityProjectGeneratorVersion>4.10.2.0</UnityProjectGeneratorVersion>
->>>>>>> daisuke_2
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.3.0f6</UnityVersion>
@@ -68,13 +64,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\Playermove.cs" />
+    <Compile Include="Assets\Scenes\Script\main_camera.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange2.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange3.cs" />
     <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
-    <Compile Include="Assets\Script\Enemy\FireBall.cs" />
+    <Compile Include="Assets\Script\Enemy\EnemyParticle.cs" />
     <Compile Include="Assets\Script\Enemy\SelfDestroy.cs" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
@@ -115,35 +111,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-=======
-    <Compile Include="Assets\Scenes\Script\main_camera.cs" />
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
->>>>>>> daisuke_2
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -322,15 +289,6 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-=======
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
->>>>>>> daisuke_2
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
     </Reference>
