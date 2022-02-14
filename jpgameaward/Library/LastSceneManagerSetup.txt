@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/SampleScene.unity
-=======
-<<<<<<< HEAD
 - path: Assets/Scenes/futo.scene.unity
-=======
-- path: Assets/Scenes/ryu_Scene.unity
->>>>>>> 106fb5e01add42ba8130973a74a70c47f217084c
->>>>>>> master
   isLoaded: 1
   isActive: 1
   isSubScene: 0
