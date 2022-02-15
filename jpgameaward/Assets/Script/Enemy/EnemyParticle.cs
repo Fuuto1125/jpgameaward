@@ -24,7 +24,7 @@ public class EnemyParticle : MonoBehaviour
             Destroy(this.gameObject);
 
             // インスタンス化したパーティクルシステムのGameObjectを削除する。
-            Destroy(newParticle.gameObject, 1.0f);
+            Destroy(newParticle.gameObject, 4.0f);
         }
     }
 }
