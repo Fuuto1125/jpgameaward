@@ -43,12 +43,33 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1531
+    height: 853
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 55
+=======
+  controlID: 119
+=======
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     width: 1536
     height: 731
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 150
+=======
+  controlID: 104
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,11 +114,46 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 226
     height: 460
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
+=======
+<<<<<<< HEAD
+    width: 357
+    height: 454
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 249
+    height: 582
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+=======
+    width: 223
+    height: 460
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+  m_Panes:
+  - {fileID: 19}
+>>>>>>> ryu_sub3
+=======
+    width: 300
+    height: 433
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
   m_Panes:
   - {fileID: 18}
   m_Selected: 0
@@ -222,6 +278,20 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 56
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+    width: 1214
+    height: 716
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 8002, y: 8042}
+  vertical: 1
+  controlID: 35
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -292,7 +362,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -6973158847631862895, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -411,7 +481,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -466,14 +536,32 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: D:\2-4Eteam_GameTaishou\jpgameaward
+=======
+  m_LastProjectPath: C:\Users\kbc12006077\Documents\jpgameaward\jpgameaward
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a4330000
+    m_LastClickedID: 13220
+    m_ExpandedIDs: 00000000a433000000ca9a3b
+=======
     scrollPos: {x: 0, y: 79}
+<<<<<<< HEAD
     m_SelectedIDs: 0a370000
     m_LastClickedID: 14090
     m_ExpandedIDs: 000000000a37000010370000143700008e3700009237000000ca9a3b
+=======
+    m_SelectedIDs: 32460000
+    m_LastClickedID: 17970
+    m_ExpandedIDs: 000000003246000034460000364600001e4d000000ca9a3b
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -501,7 +589,23 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000000a3700000c3700000e370000103700001237000014370000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000a4330000
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000056430000584300005a4300005c430000
+=======
+    m_ExpandedIDs: 0000000086370000883700008a370000
+>>>>>>> ryu_sub3
+=======
+    m_ExpandedIDs: 00000000324600003446000036460000
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -626,7 +730,34 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 8caaffffd4bbffffe0d4ffff54e1ffff90e8ffff2ce9ffffeaf8ffff52fbffffb6a80000
+=======
+<<<<<<< HEAD
+      m_ExpandedIDs: e8a1feff8eabfeff5eadfeff9eaffeff2ec9fefff0cefeff4cd0feffccd0fefff0d0feff30d3feffa0d4feffa8eafeff94aaffffeaaaffffd8cdfffffacdffff28ceffff82ceffff9cceffff4ee3ffff62e3fffff6f5ffff26f6ffff2cf6ffff80f6ffffdcf6ffffe8f6ffffeef6fffff8f6ffff04f7ffff5af7ffffc0f7ffffe4f7ffff6af8ffff9ef8ffff24faffff52fbffff
+=======
+      m_ExpandedIDs: a6faffffecfaffff
+>>>>>>> ryu_sub3
+=======
+    x: 7.2000003
+    y: 81.6
+    width: 299
+    height: 412
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6afbffff
+=======
+      m_SelectedIDs: f68fffff
+      m_LastClickedID: -28682
+      m_ExpandedIDs: b804ffffe42cffff2e4cffffe68ffffff68fffffc696fffffabdffff58beffff82beffff5abfffff
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -686,9 +817,33 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -2.5714939, y: 3.463431, z: 65.813484}
     speed: 2
     m_Value: {x: -2.5714939, y: 3.463431, z: 65.813484}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -0.8186989, y: -0.4249177, z: 1.3208947}
+    speed: 2
+    m_Value: {x: -0.8186989, y: -0.4249177, z: 1.3208947}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 97.106125, y: 13.001763, z: -7.8608093}
+    speed: 2
+    m_Value: {x: 100.29575, y: 11.928969, z: -21.480835}
+=======
+    m_Target: {x: -222.63928, y: -58.45117, z: 13.82113}
+    speed: 2
+    m_Value: {x: -222.63928, y: -58.45117, z: 13.82113}
+>>>>>>> ryu_sub3
+=======
+    m_Target: {x: 1.199285, y: -0.12579529, z: 0.22704811}
+    speed: 2
+    m_Value: {x: 1.199285, y: -0.12579529, z: 0.22704811}
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -734,11 +889,40 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.0018088813, y: 0.033592463, z: -0.000040495284, w: -0.9994611}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -0.11588271, y: 0.8587133, z: -0.22275354, w: -0.44672692}
+    speed: 2
+    m_Value: {x: -0.116552584, y: 0.85837764, z: -0.2240412, w: -0.44655228}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 0.14976254, y: -0.0799914, z: 0.012177153, w: 0.9854328}
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     speed: 2
     m_Value: {x: -0.0033079812, y: 0.033591457, z: -0.00009088693, w: -0.99943024}
   m_Size:
+<<<<<<< HEAD
     m_Target: 50.93918
+=======
+    m_Target: 28.329432
+    speed: 2
+    m_Value: 6.7372694
+=======
+    m_Target: {x: 0.09293896, y: -0.6860399, z: 0.088979736, w: 0.7162743}
+    speed: 2
+    m_Value: {x: 0.09292713, y: -0.6859526, z: 0.08896841, w: 0.7161831}
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+  m_Size:
+    m_Target: 253.38113
+    speed: 2
+    m_Value: 253.38113
+>>>>>>> ryu_sub3
+=======
+    m_Target: {x: 0.13416341, y: -0.71820074, z: 0.14428395, w: 0.6674413}
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     speed: 2
     m_Value: 48.745625
   m_Ortho:
@@ -811,10 +995,31 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -366.80002
     m_HBaseRangeMax: 366.80002
     m_VBaseRangeMin: -167.2
     m_VBaseRangeMax: 167.2
+=======
+<<<<<<< HEAD
+    m_HBaseRangeMin: -448.5
+    m_HBaseRangeMax: 448.5
+    m_VBaseRangeMin: -216.5
+    m_VBaseRangeMax: 216.5
+=======
+<<<<<<< HEAD
+    m_HBaseRangeMin: -492.5
+    m_HBaseRangeMax: 492.5
+    m_VBaseRangeMin: -270
+    m_VBaseRangeMax: 270
+=======
+    m_HBaseRangeMin: -364.80002
+    m_HBaseRangeMax: 364.80002
+    m_VBaseRangeMin: -156.40001
+    m_VBaseRangeMax: 156.40001
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -831,17 +1036,31 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
+      y: 0
+      width: 897
+      height: 433
+    m_Scale: {x: 1.2494643, y: 1.2494643}
+    m_Translation: {x: 448.49997, y: 216.5}
+=======
       y: 21
       width: 917
       height: 418
     m_Scale: {x: 1, y: 1}
+<<<<<<< HEAD
     m_Translation: {x: 458.5, y: 209}
+=======
+    m_Translation: {x: 456, y: 195.5}
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -458.5
       y: -209
       width: 917
@@ -849,6 +1068,35 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1146.25, y: 548.75}
+=======
+<<<<<<< HEAD
+      x: -358.95383
+      y: -173.27426
+      width: 717.90765
+      height: 346.54852
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 897, y: 433}
+=======
+<<<<<<< HEAD
+      x: -492.5
+      y: -270
+      width: 985
+      height: 540
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 985, y: 561}
+=======
+      x: -456
+      y: -195.5
+      width: 912
+      height: 391
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1140, y: 515}
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+>>>>>>> 88111a4ba769614884afa0c6faa7b78fc0b35946
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
