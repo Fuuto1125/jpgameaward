@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireBall : MonoBehaviour
+public class EnemyParticle : MonoBehaviour
 {
     [SerializeField] private ParticleSystem particle = null;
 
@@ -24,7 +24,7 @@ public class FireBall : MonoBehaviour
             Destroy(this.gameObject);
 
             // インスタンス化したパーティクルシステムのGameObjectを削除する。
-            Destroy(newParticle.gameObject, 1.0f);
+            Destroy(newParticle.gameObject, 4.0f);
         }
     }
 }
