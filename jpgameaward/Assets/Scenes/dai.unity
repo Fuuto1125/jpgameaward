@@ -319,8 +319,6 @@ GameObject:
   - component: {fileID: 462146065}
   - component: {fileID: 462146064}
   - component: {fileID: 462146063}
-  - component: {fileID: 462146069}
-  - component: {fileID: 462146068}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -414,37 +412,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &462146068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462146062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16b58945f5ff17c4e9101caabb1369f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball: {fileID: 0}
-  rb_ball: {fileID: 0}
-  thrust: 100
-  audioSources: []
-  agentMeshRenderers: []
---- !u!114 &462146069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462146062}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c72081a26ba973c41a21f6c82bb5623d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball: {fileID: 0}
-  thrust: 100
 --- !u!1 &1527024354
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,8 +423,8 @@ GameObject:
   - component: {fileID: 1527024357}
   - component: {fileID: 1527024356}
   - component: {fileID: 1527024355}
-  - component: {fileID: 1527024358}
   - component: {fileID: 1527024359}
+  - component: {fileID: 1527024358}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -539,7 +506,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1527024354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be00719f72f33124d9f7d61c817d3efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3694eed2cd63fc340ad72451f75198b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1527024359
