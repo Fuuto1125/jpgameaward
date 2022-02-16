@@ -14,17 +14,78 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43.2
-    width: 1536
-    height: 780.8
+<<<<<<< HEAD
+    x: 381
+    y: 129
+    width: 1531
+    height: 903
+=======
+    x: 7.2000003
+    y: 51.2
+    width: 1521.6
+    height: 765.60004
+>>>>>>> origin/FUTO
   m_ShowMode: 4
   m_Title: 
+<<<<<<< HEAD
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+<<<<<<< HEAD
+=======
+  m_RootView: {fileID: 7}
+>>>>>>> ryu_sub3
+  m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> origin/FUTO
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1531
+    height: 853
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+<<<<<<< HEAD
+  controlID: 55
+=======
+  controlID: 119
+=======
+    width: 1536
+    height: 731
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 1
+  controlID: 140
+>>>>>>> ryu_sub3
+=======
+    width: 1522
+    height: 716
+  m_MinSize: {x: 677, y: 342}
+  m_MaxSize: {x: 12002, y: 8042}
+  vertical: 0
+  controlID: 104
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,45 +98,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
+  - {fileID: 10}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 30
+    y: 0
     width: 1536
     height: 731
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 55
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1256
-    y: 0
-    width: 280
-    height: 731
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 1
+  controlID: 141
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -86,23 +120,52 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneHierarchyWindow
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+<<<<<<< HEAD
+    x: 1236
     y: 0
-    width: 357
-    height: 454
-  m_MinSize: {x: 201, y: 221}
+<<<<<<< HEAD
+    width: 295
+    height: 853
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+=======
+    width: 389
+    height: 731
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &5
+>>>>>>> ryu_sub3
+=======
+    x: 1214
+    y: 0
+    width: 308
+    height: 716
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,24 +175,101 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 454
-    width: 1256
-    height: 277
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+    y: 0
+<<<<<<< HEAD
+    width: 357
+    height: 454
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 17}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 249
+    height: 582
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
-  - {fileID: 20}
+=======
+    width: 223
+    height: 460
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+  m_Panes:
+  - {fileID: 19}
+>>>>>>> ryu_sub3
+=======
+    width: 300
+    height: 433
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+>>>>>>> origin/FUTO
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+<<<<<<< HEAD
+    y: 582
+    width: 1236
+    height: 271
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+<<<<<<< HEAD
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+=======
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 22}
+  - {fileID: 15}
+>>>>>>> ryu_sub3
   m_Selected: 0
   m_LastSelected: 1
+--- !u!114 &7
+=======
+    y: 433
+    width: 1214
+    height: 283
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 19}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,18 +282,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
   - {fileID: 8}
+  - {fileID: 2}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1531
+    height: 903
+=======
     width: 1536
     height: 781
+>>>>>>> ryu_sub3
+  m_MinSize: {x: 875, y: 542}
+=======
+    width: 1522
+    height: 766
   m_MinSize: {x: 875, y: 300}
+>>>>>>> origin/FUTO
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -170,12 +321,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+<<<<<<< HEAD
+    width: 1531
+=======
+    width: 1522
+>>>>>>> origin/FUTO
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -191,36 +346,16 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 761
-    width: 1536
+<<<<<<< HEAD
+    y: 883
+    width: 1531
+=======
+    y: 746
+    width: 1522
+>>>>>>> origin/FUTO
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1256
-    height: 731
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 56
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,19 +369,85 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
   - {fileID: 11}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1256
-    height: 454
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1236
+    height: 853
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 56
+<<<<<<< HEAD
+=======
+=======
+    width: 1214
+    height: 716
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 8002, y: 8042}
+  vertical: 1
+  controlID: 35
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+--- !u!114 &10
+=======
+    width: 1147
+    height: 731
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 64
+--- !u!114 &11
+>>>>>>> ryu_sub3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 1236
+    height: 582
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 57
+=======
+    width: 1214
+    height: 433
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 36
+>>>>>>> origin/FUTO
 --- !u!114 &11
+=======
+    width: 1147
+    height: 460
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 65
+--- !u!114 &12
+>>>>>>> ryu_sub3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -261,21 +462,44 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 357
+<<<<<<< HEAD
+    x: 249
     y: 0
-    width: 899
-    height: 454
+    width: 987
+    height: 582
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+<<<<<<< HEAD
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-  - {fileID: 14}
+  - {fileID: 16}
+  - {fileID: 17}
   - {fileID: 12}
+=======
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 21}
+  - {fileID: 13}
+  - {fileID: 14}
+>>>>>>> ryu_sub3
+=======
+    x: 300
+    y: 0
+    width: 914
+    height: 433
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  - {fileID: 13}
+  - {fileID: 12}
+>>>>>>> origin/FUTO
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &12
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,6 +507,44 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+<<<<<<< HEAD
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+=======
+    x: 223.2
+    y: 73.6
+    width: 922
+    height: 337
+>>>>>>> ryu_sub3
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/FUTO
   m_EditorHideFlags: 0
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -296,15 +558,32 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 387
-    y: 81
-    width: 1137
-    height: 541
+    x: 307.2
+    y: 81.6
+    width: 912
+    height: 412
   m_ViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: 6027697173588370077, guid: 897d08851f78d7a4aacc07b5204e0b8b, type: 2}
+    - {fileID: -3842094277435278200, guid: 76c0def9c00966c4a95b5e2f0309c679, type: 2}
+    - {fileID: 5404196943635865309, guid: 67e26c03481a55f4c957595cf8a14364, type: 2}
     m_ValueSerializationHelper:
+    - e00: 0.5694737
+      e01: 0
+      e02: 0
+      e03: -13.473694
+      e10: 0
+      e11: 0.5694737
+      e12: 0
+      e13: 138.09474
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
     - e00: 1
       e01: 0
       e02: 0
@@ -322,10 +601,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 897d08851f78d7a4aacc07b5204e0b8b,
+  m_AnimatorController: {fileID: 9100000, guid: 67e26c03481a55f4c957595cf8a14364,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 6027697173588370077, guid: 897d08851f78d7a4aacc07b5204e0b8b,
+  - m_Target: {fileID: 5404196943635865309, guid: 67e26c03481a55f4c957595cf8a14364,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -336,10 +615,11 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 1
+  m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &13
+<<<<<<< HEAD
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,24 +628,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 360}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Navigation
-    m_Image: {fileID: 7874161543223113035, guid: 0000000000000000d000000000000000,
+    m_Text: Animation
+    m_Image: {fileID: -8967370667835289719, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1252
-    y: 81.6
-    width: 275
-    height: 695
+    x: 0
+    y: 533.60004
+    width: 1146
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -47240
+--- !u!114 &16
+=======
+--- !u!114 &13
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,12 +672,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 203.2
-    y: 73.6
-    width: 1051
-    height: 433
+    x: 307.2
+    y: 81.6
+    width: 912
+    height: 412
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &15
+<<<<<<< HEAD
+--- !u!114 &17
+=======
+--- !u!114 &14
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -399,6 +689,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+>>>>>>> ryu_sub3
   m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -412,10 +703,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 527.2
-    width: 1255
-    height: 256
+<<<<<<< HEAD
+    x: 381
+    y: 741
+    width: 1235
+    height: 250
+=======
+    x: 7.2000003
+    y: 514.4
+    width: 1213
+    height: 262
+>>>>>>> origin/FUTO
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -430,6 +728,29 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+    - Assets/Prefab/Stage
+  m_ViewMode: 1
+  m_StartGridSize: 58
+  m_LastFolders:
+  - Assets/Prefab/Stage
+  m_LastFoldersGridSize: 58
+  m_LastProjectPath: "C:\\Users\\rikut\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\jpgameaward\\jpgameaward"
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 446}
+    m_SelectedIDs: bc440000
+    m_LastClickedID: 17596
+    m_ExpandedIDs: 00000000564300005a4300005c4300006c4400006e4400008644000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 138}
+    m_SelectedIDs: e4370000
+    m_LastClickedID: 14308
+    m_ExpandedIDs: 0000000086370000883700008a370000dc370000f437000000ca9a3b
+>>>>>>> ryu_sub3
+=======
     - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -440,26 +761,38 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a4330000
     m_LastClickedID: 13220
     m_ExpandedIDs: 00000000a433000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 32460000
+    m_LastClickedID: 17970
+    m_ExpandedIDs: 000000003246000034460000364600001e4d000000ca9a3b
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Grass 04
+      m_OriginalName: Grass 04
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 17562
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 5}
+=======
+      m_ClientGUIView: {fileID: 6}
+>>>>>>> ryu_sub3
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -471,7 +804,19 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000a4330000
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000056430000584300005a4300005c430000
+=======
+    m_ExpandedIDs: 0000000086370000883700008a370000
+>>>>>>> ryu_sub3
+=======
+    m_ExpandedIDs: 00000000324600003446000036460000
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -496,10 +841,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300008c3c000000000000
+    m_SelectedInstanceIDs: f68fffff
+    m_LastClickedInstanceID: -28682
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -515,7 +860,15 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+<<<<<<< HEAD
+<<<<<<< HEAD
+      m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 6}
+>>>>>>> ryu_sub3
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> origin/FUTO
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -524,10 +877,20 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 58
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 154
---- !u!114 &16
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_DirectoriesAreaWidth: 214
+--- !u!114 &14
+=======
+  m_DirectoriesAreaWidth: 187
+--- !u!114 &18
+>>>>>>> ryu_sub3
+=======
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &15
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -548,10 +911,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1256
-    y: 73.6
-    width: 279
-    height: 710
+<<<<<<< HEAD
+    x: 1617
+    y: 159
+    width: 294
+    height: 832
+=======
+    x: 1221.6
+    y: 81.6
+    width: 306
+    height: 695
+>>>>>>> origin/FUTO
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -564,8 +934,18 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 89
---- !u!114 &17
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_LastVerticalScrollValue: 0
+--- !u!114 &15
+=======
+  m_LastVerticalScrollValue: 200
+--- !u!114 &19
+>>>>>>> ryu_sub3
+=======
+  m_LastVerticalScrollValue: 0
+--- !u!114 &16
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -586,17 +966,41 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73.6
-    width: 356
-    height: 433
+<<<<<<< HEAD
+    x: 381
+    y: 159
+    width: 248
+    height: 561
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 148}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+<<<<<<< HEAD
+      m_ExpandedIDs: e8a1feff8eabfeff5eadfeff9eaffeff2ec9fefff0cefeff4cd0feffccd0fefff0d0feff30d3feffa0d4feffa8eafeff94aaffffeaaaffffd8cdfffffacdffff28ceffff82ceffff9cceffff4ee3ffff62e3fffff6f5ffff26f6ffff2cf6ffff80f6ffffdcf6ffffe8f6ffffeef6fffff8f6ffff04f7ffff5af7ffffc0f7ffffe4f7ffff6af8ffff9ef8ffff24faffff52fbffff
+=======
+      m_ExpandedIDs: a6faffffecfaffff
+>>>>>>> ryu_sub3
+=======
+    x: 7.2000003
+    y: 81.6
+    width: 299
+    height: 412
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 6afbffff
+=======
+      m_SelectedIDs: f68fffff
+      m_LastClickedID: -28682
+      m_ExpandedIDs: b804ffffe42cffff2e4cffffe68ffffff68fffffc696fffffabdffff58beffff82beffff5abfffff
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -612,15 +1016,25 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 387f9ffdc368b634687696289373daa0
---- !u!114 &18
+<<<<<<< HEAD
+<<<<<<< HEAD
+  m_WindowGUID: d8ebb622a5301b84b8663784781110e4
+--- !u!114 &16
+=======
+  m_WindowGUID: fc4810f5b22d6754683723a95ce3bc9f
+--- !u!114 &20
+>>>>>>> ryu_sub3
+=======
+  m_WindowGUID: f08daf467d7525d4ea5cf5b85538bb27
+--- !u!114 &17
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -641,13 +1055,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 356.80002
-    y: 73.6
-    width: 897
-    height: 433
+<<<<<<< HEAD
+    x: 630
+    y: 159
+    width: 985
+    height: 561
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
-  m_WindowGUID: a0f92f3fb89f9c240933864e51409bd9
+  m_WindowGUID: 1e96f541c8767ca45913daa4a2ca454e
+=======
+    x: 307.2
+    y: 81.6
+    width: 912
+    height: 412
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 59b25b353dd404c4fa428dd788f7fbc8
+>>>>>>> origin/FUTO
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -656,9 +1080,27 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -0.8186989, y: -0.4249177, z: 1.3208947}
     speed: 2
     m_Value: {x: -0.8186989, y: -0.4249177, z: 1.3208947}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 97.106125, y: 13.001763, z: -7.8608093}
+    speed: 2
+    m_Value: {x: 100.29575, y: 11.928969, z: -21.480835}
+=======
+    m_Target: {x: -222.63928, y: -58.45117, z: 13.82113}
+    speed: 2
+    m_Value: {x: -222.63928, y: -58.45117, z: 13.82113}
+>>>>>>> ryu_sub3
+=======
+    m_Target: {x: 1.199285, y: -0.12579529, z: 0.22704811}
+    speed: 2
+    m_Value: {x: 1.199285, y: -0.12579529, z: 0.22704811}
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -680,10 +1122,10 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -696,28 +1138,54 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
+      m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.11588271, y: 0.8587133, z: -0.22275354, w: -0.44672692}
     speed: 2
     m_Value: {x: -0.116552584, y: 0.85837764, z: -0.2240412, w: -0.44655228}
-  m_Size:
-    m_Target: 10
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    m_Target: {x: 0.14976254, y: -0.0799914, z: 0.012177153, w: 0.9854328}
     speed: 2
-    m_Value: 10
+    m_Value: {x: 0.5528168, y: 0.057398804, z: -0.038201645, w: 0.83044535}
+  m_Size:
+    m_Target: 28.329432
+    speed: 2
+    m_Value: 6.7372694
+=======
+    m_Target: {x: 0.09293896, y: -0.6860399, z: 0.088979736, w: 0.7162743}
+    speed: 2
+    m_Value: {x: 0.09292713, y: -0.6859526, z: 0.08896841, w: 0.7161831}
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
+  m_Size:
+    m_Target: 253.38113
+    speed: 2
+    m_Value: 253.38113
+>>>>>>> ryu_sub3
+=======
+    m_Target: {x: 0.13416341, y: -0.71820074, z: 0.14428395, w: 0.6674413}
+    speed: 2
+    m_Value: {x: 0.13415618, y: -0.71816206, z: 0.14427617, w: 0.66740537}
+  m_Size:
+    m_Target: 1281.58
+    speed: 2
+    m_Value: 1281.58
+>>>>>>> origin/FUTO
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
     m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_SpeedNormalized: 0.4974874
     m_SpeedMin: 0.01
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -728,14 +1196,26 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+<<<<<<< HEAD
+  m_LastSceneViewRotation: {x: 0.20264618, y: 0.04844564, z: -0.010037252, w: 0.9780163}
+=======
+  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+>>>>>>> origin/FUTO
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &19
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &17
+=======
+--- !u!114 &21
+>>>>>>> ryu_sub3
+=======
+--- !u!114 &18
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -756,10 +1236,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 356.80002
-    y: 73.6
-    width: 897
-    height: 433
+<<<<<<< HEAD
+    x: 630
+    y: 159
+    width: 985
+    height: 561
+=======
+    x: 307.2
+    y: 81.6
+    width: 912
+    height: 412
+>>>>>>> origin/FUTO
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -767,7 +1254,11 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 897, y: 412}
+<<<<<<< HEAD
+  m_TargetSize: {x: 985, y: 540}
+=======
+  m_TargetSize: {x: 912, y: 391}
+>>>>>>> origin/FUTO
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -781,10 +1272,24 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -448.5
     m_HBaseRangeMax: 448.5
     m_VBaseRangeMin: -216.5
     m_VBaseRangeMax: 216.5
+=======
+<<<<<<< HEAD
+    m_HBaseRangeMin: -492.5
+    m_HBaseRangeMax: 492.5
+    m_VBaseRangeMin: -270
+    m_VBaseRangeMax: 270
+=======
+    m_HBaseRangeMin: -364.80002
+    m_HBaseRangeMax: 364.80002
+    m_VBaseRangeMin: -156.40001
+    m_VBaseRangeMax: 156.40001
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -793,7 +1298,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -801,17 +1306,33 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 0
       width: 897
       height: 433
     m_Scale: {x: 1.2494643, y: 1.2494643}
     m_Translation: {x: 448.49997, y: 216.5}
+=======
+      y: 21
+<<<<<<< HEAD
+      width: 985
+      height: 540
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 492.5, y: 270}
+=======
+      width: 912
+      height: 391
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 456, y: 195.5}
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -358.95383
       y: -173.27426
       width: 717.90765
@@ -819,12 +1340,39 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 897, y: 433}
+=======
+<<<<<<< HEAD
+      x: -492.5
+      y: -270
+      width: 985
+      height: 540
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 985, y: 561}
+=======
+      x: -456
+      y: -195.5
+      width: 912
+      height: 391
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1140, y: 515}
+>>>>>>> origin/FUTO
+>>>>>>> 804ddfb324fd91ffda1cb24e7ed6c9cb87c2a0a2
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &20
+<<<<<<< HEAD
+<<<<<<< HEAD
+--- !u!114 &18
+=======
+--- !u!114 &22
+>>>>>>> ryu_sub3
+=======
+--- !u!114 &19
+>>>>>>> origin/FUTO
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -845,8 +1393,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 527.2
-    width: 1255
-    height: 256
+<<<<<<< HEAD
+    x: 474
+    y: 823
+    width: 1161
+    height: 168
+=======
+    x: 7.2000003
+    y: 514.4
+    width: 1213
+    height: 262
+>>>>>>> origin/FUTO
   m_ViewDataDictionary: {fileID: 0}

@@ -1,5 +1,9 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+<<<<<<< HEAD
+- path: Assets/Scenes/taba.unity
+=======
+- path: Assets/Scenes/futo.scene.unity
+>>>>>>> origin/FUTO
   isLoaded: 1
   isActive: 1
   isSubScene: 0
