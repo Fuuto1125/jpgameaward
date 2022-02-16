@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/dai.unity
+=======
+- path: Assets/S_ryu/ryu_Scene.unity
+>>>>>>> ryu_sub4
   isLoaded: 1
   isActive: 1
   isSubScene: 0
