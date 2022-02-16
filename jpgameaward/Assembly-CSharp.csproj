@@ -47,15 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-<<<<<<< HEAD
-<<<<<<< HEAD
     <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
-=======
-    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
->>>>>>> origin/FUTO
-=======
-    <UnityProjectGeneratorVersion>4.10.2.0</UnityProjectGeneratorVersion>
->>>>>>> 0214
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.3.0f6</UnityVersion>
@@ -73,139 +65,84 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Playermove.cs" />
-    <Compile Include="Assets\Scenes\Script\main_camera.cs" />
+    <Compile Include="Assets\S_dai\script_dai\ZoomCamera.cs" />
+    <Compile Include="Assets\S_dai\script_dai\main_camera.cs" />
+    <Compile Include="Assets\S_dai\script_dai\player_test.cs" />
+    <Compile Include="Assets\S_dai\script_dai\slowmostion.cs" />
+    <Compile Include="Assets\S_ryu\Script\EnemyMove.cs" />
+    <Compile Include="Assets\S_ryu\Script\EnemyParticle.cs" />
+    <Compile Include="Assets\S_ryu\Script\SelfDestroy.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange2.cs" />
     <Compile Include="Assets\Scenes\hokama.scene\SceneChange3.cs" />
-    <Compile Include="Assets\Scenes\script_dai\ZoomCamera.cs" />
-    <Compile Include="Assets\Scenes\script_dai\main_camera.cs" />
-    <Compile Include="Assets\Scenes\script_dai\player_test.cs" />
-    <Compile Include="Assets\Scenes\script_dai\slowmostion.cs" />
-    <Compile Include="Assets\Script\Enemy\EnemyMove.cs" />
-    <Compile Include="Assets\Script\Enemy\EnemyParticle.cs" />
-    <Compile Include="Assets\Script\Enemy\SelfDestroy.cs" />
     <None Include="Assets\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\AnimeGirls\BaseCharacter\BaseCharacter\Sourcefiles\Shader\DoubleSided.shader" />
     <None Include="Assets\AnimeGirls\BaseCharacter\BaseCharacter\Sourcefiles\Shader\UnlitColor.shader" />
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
-<<<<<<< HEAD
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-<<<<<<< HEAD
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-<<<<<<< HEAD
-      <HintPath>C:/Users/rikut/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-=======
       <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
->>>>>>> ryu_sub3
-=======
-      <HintPath>C:/日本ゲーム大賞/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
->>>>>>> origin/FUTO
-=======
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
->>>>>>> 0214
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -384,24 +321,6 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0214
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-<<<<<<< HEAD
-=======
->>>>>>> ryu_sub3
-=======
->>>>>>> origin/FUTO
-=======
->>>>>>> 0214
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
     </Reference>
