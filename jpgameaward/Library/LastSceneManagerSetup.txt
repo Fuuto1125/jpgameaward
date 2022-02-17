@@ -1,5 +1,6 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/S_ryu/ryu_Scene.unity
 =======
 <<<<<<< HEAD
@@ -8,6 +9,9 @@ sceneSetups:
 - path: Assets/Scenes/taba.unity
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+- path: Assets/Scenes/SampleScene.unity
+>>>>>>> origin/kaito1
   isLoaded: 1
   isActive: 1
   isSubScene: 0

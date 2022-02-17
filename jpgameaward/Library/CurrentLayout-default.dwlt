@@ -23,6 +23,7 @@ MonoBehaviour:
   m_Title: 
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
+<<<<<<< HEAD
 =======
     x: 0
     y: 43
@@ -33,6 +34,8 @@ MonoBehaviour:
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
 >>>>>>> Rikuto/Stage7
+=======
+>>>>>>> origin/kaito1
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -86,6 +89,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 115
 --- !u!114 &4
 =======
@@ -104,6 +108,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 90
 >>>>>>> Rikuto/Stage7
+=======
+  controlID: 60
+>>>>>>> origin/kaito1
 --- !u!114 &3
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
 MonoBehaviour:
@@ -115,11 +122,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: 
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 1148
     y: 0
@@ -153,6 +161,20 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &5
+=======
+    x: 1053
+    y: 0
+    width: 483
+    height: 731
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &4
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,6 +191,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 226
     height: 460
@@ -192,6 +215,15 @@ MonoBehaviour:
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
   m_Panes:
   - {fileID: 19}
+=======
+    width: 352
+    height: 442
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+>>>>>>> origin/kaito1
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -210,6 +242,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     y: 460
     width: 1148
@@ -231,6 +264,17 @@ MonoBehaviour:
   - {fileID: 17}
   - {fileID: 22}
   - {fileID: 14}
+=======
+    y: 442
+    width: 1053
+    height: 289
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 12}
+  - {fileID: 17}
+>>>>>>> origin/kaito1
   m_Selected: 0
   m_LastSelected: 1
 <<<<<<< HEAD
@@ -258,6 +302,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1522
     height: 767
   m_MinSize: {x: 875, y: 542}
@@ -266,6 +311,11 @@ MonoBehaviour:
     height: 997
   m_MinSize: {x: 875, y: 300}
 >>>>>>> Rikuto/Stage7
+=======
+    width: 1536
+    height: 781
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> origin/kaito1
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
 MonoBehaviour:
@@ -339,7 +389,11 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1148
+=======
+    width: 1053
+>>>>>>> origin/kaito1
     height: 731
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
@@ -353,6 +407,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 45
 =======
     width: 1464
@@ -362,6 +417,9 @@ MonoBehaviour:
   vertical: 1
   controlID: 15
 >>>>>>> Rikuto/Stage7
+=======
+  controlID: 61
+>>>>>>> origin/kaito1
 --- !u!114 &10
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
 MonoBehaviour:
@@ -383,6 +441,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1148
     height: 460
@@ -407,6 +466,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 16
 >>>>>>> Rikuto/Stage7
+=======
+    width: 1053
+    height: 442
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 62
+>>>>>>> origin/kaito1
 --- !u!114 &11
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
 MonoBehaviour:
@@ -418,11 +485,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 226
     y: 0
@@ -455,6 +523,21 @@ MonoBehaviour:
 <<<<<<< HEAD
   m_LastSelected: 0
 --- !u!114 &13
+=======
+    x: 352
+    y: 0
+    width: 701
+    height: 442
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 1
+  m_LastSelected: 1
+--- !u!114 &12
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,6 +545,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -616,6 +700,8 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> origin/kaito1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -631,6 +717,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 533.60004
     width: 1147
 =======
@@ -646,6 +733,11 @@ MonoBehaviour:
     width: 1463
     height: 265
 >>>>>>> Rikuto/Stage7
+=======
+    y: 515.2
+    width: 1052
+    height: 268
+>>>>>>> origin/kaito1
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: clock
@@ -660,6 +752,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - Packages/com.unity.timeline/Editor
   m_ViewMode: 1
@@ -698,6 +791,22 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000c26b0000c46b0000c66b0000c86b0000cc6b00004a6c0000b66c0000be6c000000ca9a3b
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+    - Assets/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: D:\UintyProject\2-4E\jpgameaward
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 2e440000
+    m_LastClickedID: 17454
+    m_ExpandedIDs: 00000000b6430000b8430000ba43000000ca9a3b
+>>>>>>> origin/kaito1
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -734,6 +843,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000204c0000224c0000244c0000264c0000284c00002a4c00002c4c00002e4c0000
 =======
 <<<<<<< HEAD
@@ -742,6 +852,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000c26b0000c46b0000c66b0000c86b0000ca6b0000cc6b0000
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+    m_ExpandedIDs: 00000000b6430000b8430000ba430000
+>>>>>>> origin/kaito1
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -769,7 +882,11 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
+<<<<<<< HEAD
     m_ExpandedInstanceIDs: c6230000
+=======
+    m_ExpandedInstanceIDs: c623000000000000
+>>>>>>> origin/kaito1
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -796,8 +913,13 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
+<<<<<<< HEAD
   m_DirectoriesAreaWidth: 192
 --- !u!114 &18
+=======
+  m_DirectoriesAreaWidth: 115
+--- !u!114 &13
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -819,9 +941,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1148
     y: 73.6
     width: 387
+=======
+    x: 1052.8
+    y: 73.6
+    width: 482
+>>>>>>> origin/kaito1
     height: 710
 =======
 <<<<<<< HEAD
@@ -850,6 +978,7 @@ MonoBehaviour:
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &19
 =======
 <<<<<<< HEAD
@@ -858,6 +987,9 @@ MonoBehaviour:
 --- !u!114 &15
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+--- !u!114 &14
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -887,6 +1019,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
     y: 73.6
+<<<<<<< HEAD
     width: 225
     height: 439
 =======
@@ -895,10 +1028,15 @@ MonoBehaviour:
     height: 640
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+    width: 351
+    height: 421
+>>>>>>> origin/kaito1
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 84580000
       m_LastClickedID: 0
@@ -912,6 +1050,11 @@ MonoBehaviour:
       m_ExpandedIDs: 8236fcff1a0bfeff620bfeffc60bfeff8e1ffeffae1ffeffb61ffeffdc1ffefff81ffeff3e20feff7220feffc453feffbea6ffff04a7ffff92a7fffff6ceffff8e5400007c550000205a0000c25c0000725d0000a2630000f2640000
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 52fbffff
+>>>>>>> origin/kaito1
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -935,6 +1078,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_WindowGUID: 3722a51ec77ae214d9092aadc4d29a40
 <<<<<<< HEAD
 --- !u!114 &20
@@ -945,6 +1089,10 @@ MonoBehaviour:
 --- !u!114 &16
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+  m_WindowGUID: 2771ae0d320c2814aa4042b4dcc5dc6c
+--- !u!114 &15
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -965,6 +1113,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 226.40001
     y: 73.6
@@ -989,6 +1138,15 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: e37480d13a94e6d4d9c63e5f0901b2eb
 >>>>>>> Rikuto/Stage7
+=======
+    x: 352
+    y: 73.6
+    width: 699
+    height: 421
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 37fa33e25cae8b8448fd74bc673d15dd
+>>>>>>> origin/kaito1
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -997,6 +1155,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -148.12053, y: -104.36072, z: 73.642075}
     speed: 2
@@ -1012,6 +1171,11 @@ MonoBehaviour:
     m_Value: {x: 326.7173, y: -11.0399475, z: 314.55215}
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+    m_Target: {x: 0, y: 0, z: 0}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0}
+>>>>>>> origin/kaito1
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1058,6 +1222,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.22147046, y: -0.51209676, z: 0.13857268, w: 0.8182658}
     speed: 2
     m_Value: {x: 0.22167213, y: -0.5108551, z: 0.13823661, w: 0.81901103}
@@ -1084,6 +1249,15 @@ MonoBehaviour:
     m_Value: 597.94293
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+    m_Target: {x: -0.029369045, y: -0.050360955, z: 0.0014725992, w: -0.9983146}
+    speed: 2
+    m_Value: {x: -0.029369043, y: -0.05036095, z: 0.0014725992, w: -0.9983146}
+  m_Size:
+    m_Target: 133.15616
+    speed: 2
+    m_Value: 133.15616
+>>>>>>> origin/kaito1
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1108,7 +1282,11 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 --- !u!114 &21
+=======
+--- !u!114 &16
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1130,6 +1308,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 840.8
 =======
 <<<<<<< HEAD
@@ -1144,6 +1323,12 @@ MonoBehaviour:
     width: 1140
     height: 542
 >>>>>>> Rikuto/Stage7
+=======
+    x: 352
+    y: 73.6
+    width: 699
+    height: 421
+>>>>>>> origin/kaito1
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -1151,6 +1336,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_TargetSize: {x: 305, y: 418}
 =======
@@ -1160,6 +1346,9 @@ MonoBehaviour:
   m_TargetSize: {x: 1140, y: 521}
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+  m_TargetSize: {x: 699, y: 400}
+>>>>>>> origin/kaito1
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1173,6 +1362,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -122
     m_HBaseRangeMax: 122
@@ -1189,6 +1379,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -260.5
     m_VBaseRangeMax: 260.5
 >>>>>>> Rikuto/Stage7
+=======
+    m_HBaseRangeMin: -279.6
+    m_HBaseRangeMax: 279.6
+    m_VBaseRangeMin: -160
+    m_VBaseRangeMax: 160
+>>>>>>> origin/kaito1
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1207,6 +1403,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 305
       height: 418
     m_Scale: {x: 1, y: 1}
@@ -1224,12 +1421,19 @@ MonoBehaviour:
     m_Translation: {x: 570, y: 260.5}
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+      width: 699
+      height: 400
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 349.5, y: 200}
+>>>>>>> origin/kaito1
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -152.5
 =======
@@ -1255,12 +1459,25 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1140, y: 542}
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+      x: -349.5
+      y: -200
+      width: 699
+      height: 400
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 873.75, y: 526.25}
+>>>>>>> origin/kaito1
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &22
+=======
+--- !u!114 &17
+>>>>>>> origin/kaito1
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1283,6 +1500,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
     x: 0
+<<<<<<< HEAD
     y: 533.60004
     width: 1147
     height: 250
@@ -1299,4 +1517,9 @@ MonoBehaviour:
     height: 347
 >>>>>>> Rikuto/Stage7
 >>>>>>> 595bd9b3f2378868b7717056cf4d11df073efd7a
+=======
+    y: 515.2
+    width: 1052
+    height: 268
+>>>>>>> origin/kaito1
   m_ViewDataDictionary: {fileID: 0}
