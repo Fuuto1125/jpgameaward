@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/S_dai/dai.unity
+=======
+- path: Assets/Scenes/taba.unity
+>>>>>>> Rikuto/Stage7
   isLoaded: 1
   isActive: 1
   isSubScene: 0
