@@ -20,10 +20,10 @@ public class player_test : MonoBehaviour
         {
             transform.Translate(0.1f, 0f, 0f);
         }
-        if (Input.GetKey(KeyCode.Space))
-        {
-            transform.Translate(0.5f, 0f,0f);
-        }
+        //if (Input.GetKey(KeyCode.Space))
+        //{
+        //    transform.Translate(0.5f, 0f,0f);
+        //}
     }
 }
 
