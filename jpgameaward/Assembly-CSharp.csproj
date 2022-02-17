@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.10.2.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.3.0f6</UnityVersion>
@@ -64,6 +64,100 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleBaseBehaviour.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleBubble.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleNavigator.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleOccurrences.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExamplePhysics.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleSlider.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleSpin.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Example\ExampleTimeColor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ChronosComponentAction.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\GetBaseSpeed.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\GetClockInfo.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\GetGlobalClock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\GetTimelineInfo.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\PauseClock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\AddForce2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\AddTorque2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\GetBodyType2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\GetMass2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\GetSpeed2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\GetVelocity2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\SetBodyType2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\SetMass2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 2D\SetVelocity2d.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\AddExplosionForce.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\AddForce.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\AddTorque.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\GetMass.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\GetSpeed.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\GetVelocity.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\IsKinematic.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\SetDrag.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\SetIsKinematic.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\SetMass.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\SetVelocity.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Physics 3D\UseGravity.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ReleaseAreaClock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ReleaseTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ScaleClockTime.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ScaleClockTimeSmoothly.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ScaleGlobalClockTime.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\ScaleGlobalClockTimeSmoothly.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\Schedule.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\SetBaseSpeed.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\PlayMaker\TimelineStateSwitch.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\AreaClock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\AreaClock2D.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\AreaClock3D.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\ChronosException.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Clock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\ComponentTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\CustomRecorder.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\AnimatorParameter.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\FilterAttribute.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\SelfTargetedAttribute.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\TypeFamily.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\UnityGetter.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\UnityMember.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\UnityMemberHelper.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\UnityMethod.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\UnityReflectionException.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\UnityVariable.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Utilities\Extensions.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Utilities\TypeSerializer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\GlobalClock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\GlobalClockAttribute.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\LocalClock.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Occurrences\ActionOccurence.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Occurrences\ForwardActionOccurrence.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Occurrences\FuncOccurence.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Occurrences\Occurrence.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Recorder.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\RecorderTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\TimeState.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timekeeper.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\TimelineChild.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\TimelineEffector.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\AnimationTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\AnimatorTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\AudioSourceTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\IParticleSystemTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\NavMeshAgentTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\NonRewindableParticleSystemTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\RewindableParticleSystemTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\RigidbodyTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\RigidbodyTimeline2D.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\RigidbodyTimeline3D.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\TerrainTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\TrailRendererTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\TransformTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\WheelColliderTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Timelines\WindZoneTimeline.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Utilities\Severity.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Utilities\Singleton.cs" />
     <Compile Include="Assets\S_dai\script_dai\ZoomCamera.cs" />
     <Compile Include="Assets\S_dai\script_dai\main_camera.cs" />
     <Compile Include="Assets\S_dai\script_dai\player_test.cs" />
@@ -78,74 +172,75 @@
     <Compile Include="Assets\S_taba\LightRays2D\Script\LightRays2D.cs" />
     <Compile Include="Assets\S_taba\LightRays2D\Script\LightRays2DAbstract.cs" />
     <Compile Include="Assets\S_taba\LightRays2D\Script\LightRays2DCanvas.cs" />
+    <None Include="Assets\Ludiq\Ludiq.Chronos\Readme.txt" />
     <None Include="Assets\S_taba\Fantasy Skybox FREE\Readme.txt" />
     <None Include="Assets\S_taba\LightRays2D\Readme.txt" />
     <None Include="Assets\S_taba\LightRays2D\Shaders\LightRays.shader" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,6 +418,12 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.10.2.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.3.0f6</UnityVersion>
@@ -64,78 +64,125 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Controls\Editor\DropdownGUI.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Controls\Editor\DropdownOption.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Controls\Editor\Extensions.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Controls\Editor\PopupGUI.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Controls\Editor\PopupOption.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\AnimatorParameterDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\Extensions.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\TargetedDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\UnityGetterDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\UnityMemberDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\UnityMemberDrawerHelper.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\UnityMethodDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\UnityObjectType.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\Reflection\Editor\UnityVariableDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\ElementAdderMenuBuilder.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\ElementAdderMenuCommandAttribute.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\ElementAdderMeta.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\GenericElementAdderMenu.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\GenericElementAdderMenuBuilder.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\IElementAdder.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\IElementAdderMenu.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\IElementAdderMenuBuilder.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Element Adder Menu\IElementAdderMenuCommand.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\GenericListAdaptor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\IReorderableListAdaptor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\IReorderableListDropTarget.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Internal\GUIHelper.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Internal\ReorderableListResources.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\Internal\SerializedPropertyUtility.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\ReorderableListControl.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\ReorderableListEvents.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\ReorderableListFlags.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\ReorderableListGUI.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\ReorderableListStyles.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Dependencies\ReorderableList\Editor\SerializedPropertyAdaptor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\AreaClock2DEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\AreaClock3DEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\AreaClockEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\ClockEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\CustomRecorderEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\GlobalClockDrawer.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\GlobalClockEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\LocalClockEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\TimekeeperEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\TimelineChildEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Editor\TimelineEditor.cs" />
+    <Compile Include="Assets\Ludiq\Ludiq.Chronos\Source\Utilities\Editor\AddonDetector.cs" />
     <Compile Include="Assets\S_taba\LightRays2D\Editor\LightRays2DEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -323,14 +370,38 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Lumin.Extensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/PackageCache/com.unity.render-pipelines.core@7.1.8/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/PackageCache/com.unity.render-pipelines.core@7.1.8/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/2-4Eteam_GameTaishou/jpgameaward/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/Dai06/OneDrive/ドキュメント/jpgameaward/jpgameaward/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
